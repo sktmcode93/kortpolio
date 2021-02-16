@@ -1,11 +1,10 @@
 /* 공통 디자인 */
 .bgs{
     width: 100vw;
-    min-height: 100vh;
 }
 .container{
     width: 1920px;
-    height: 100vh;
+    padding: 200px 0;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
