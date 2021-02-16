@@ -8,16 +8,61 @@
     background-color: hsl(70, 100%, 90%)
 }
 
-
 .bgs{
     width: 100vw;
     min-height: 100vh;
 }
 .container{
     width: 1920px;
+    height: 100vh;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
-
+.img-box {
+    width: 480px;
+    height: 480px;
+}
+.img-box img {
+    width: 100%;
+    display: block;
+    border-radius: 50px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+}
+.explain-box {
+    width: 480px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ep-title{
+    margin-top: 50px;
+}
+.ep-summary {
+    font-weight: bold;
+    color: hsl(0, 70%, 50%);
+    margin-top: 50px;
+}
+.ep-desc {
+    margin-top: 30px;
+    line-height: 1.6;
+}
+.ep-link {
+    margin-top: 50px;    
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: hsl(0, 100%, 75%);
+    transition: background-color ease 0.3s;
+    border-radius: 5px;
+}
+.ep-link:hover {
+    background-color: hsl(0, 100%, 70%);
+}
 @media (max-width : 1920px){
     .container{
         width: 1280px;
