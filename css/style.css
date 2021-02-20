@@ -57,15 +57,17 @@
 }
 /* 커스텀 디자인 */
 #pf1 {
-    background-color: hsl(0, 100%, 90%)
+    background-color: hsl(0, 100%, 90%);
 }
 #pf2 {
-    background-color: hsl(59, 100%, 90%)
+    background-color: hsl(59, 100%, 90%);
 }
 #pf3 {
-    background-color: hsl(90, 100%, 90%)
+    background-color: hsl(90, 100%, 90%);
 }
-
+#pf4 {
+    background-color: hsl(20, 100%, 90%);
+}
 /* pf1 */
 #pf1 .explain-box {
     background-color: hsl(0, 100%, 96%)
@@ -104,6 +106,19 @@
 }
 #pf3 .ep-summary{
     color: hsl(90, 70%, 50%);
+}
+/* pf4 */
+#pf4 .explain-box {
+    background-color: hsl(20, 100%, 96%)
+}
+#pf4 .ep-link {
+    background-color: hsl(20, 100%, 75%);
+}
+#pf4 .ep-link:hover {
+    background-color: hsl(20, 100%, 70%);
+}
+#pf4 .ep-summary{
+    color: hsl(20, 70%, 50%);
 }
 @media (max-width : 1920px){
     .container{
@@ -153,7 +168,7 @@
         padding: 15px;
         width: 450px;
     }
-    #pf2 .container {
+    #pf2 .container, #pf4 .container {
         flex-direction: column-reverse;
     }
 }
