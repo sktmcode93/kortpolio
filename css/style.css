@@ -59,22 +59,22 @@
 /* 커스텀 디자인 */
 #pf1 {
     /* background-color: hsl(0, 100%, 90%); */
-    background-image: url('/img/bg1.jpg');
+    background-image: url('../img/bg1.jpg');
     background-position: center center;
 }
 #pf2 {
     /* background-color: hsl(59, 100%, 90%); */
-    background-image: url('/img/bg2.jpg');
+    background-image: url('../img/bg2.jpg');
     background-position: center top;
 }
 #pf3 {
     /* background-color: hsl(90, 100%, 90%); */
-    background-image: url('/img/bg3.jpg');
+    background-image: url('../img/bg3.jpg');
     background-position: center center;
 }
 #pf4 {
     /* background-color: hsl(20, 100%, 90%); */
-    background-image: url('/img/bg4.jpg');
+    background-image: url('../img/bg4.jpg');
     background-position: center center;
 }
 /* pf1 */
