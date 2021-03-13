@@ -4,6 +4,7 @@
 }
 .bgs {
     width: 100%;
+    background-size: 100% 100%;
 }
 .container{
     width: 1920px;
@@ -57,16 +58,24 @@
 }
 /* 커스텀 디자인 */
 #pf1 {
-    background-color: hsl(0, 100%, 90%);
+    /* background-color: hsl(0, 100%, 90%); */
+    background-image: url('/img/bg1.jpg');
+    background-position: center center;
 }
 #pf2 {
-    background-color: hsl(59, 100%, 90%);
+    /* background-color: hsl(59, 100%, 90%); */
+    background-image: url('/img/bg2.jpg');
+    background-position: center top;
 }
 #pf3 {
-    background-color: hsl(90, 100%, 90%);
+    /* background-color: hsl(90, 100%, 90%); */
+    background-image: url('/img/bg3.jpg');
+    background-position: center center;
 }
 #pf4 {
-    background-color: hsl(20, 100%, 90%);
+    /* background-color: hsl(20, 100%, 90%); */
+    background-image: url('/img/bg4.jpg');
+    background-position: center center;
 }
 /* pf1 */
 #pf1 .explain-box {
@@ -184,4 +193,12 @@
         padding: 30px;
         width: 300px;
     }
+}
+@keyframes bg-upsize{
+    0% {background-size: 100% 100%;}
+    100% {background-size: 150% 150%;}
+}
+@keyframes bg-downsize{
+    0% {background-size: 150% 150%;}
+    100% {background-size: 100% 100%;}
 }
